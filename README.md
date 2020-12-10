@@ -5,6 +5,6 @@ This is useful for me as there is a multi-page document I split down manually ea
 This script uses pikepdf and automates all the changes I usually carry out.
 
 To use make sure to install pikepdf using pip (pip3 install pikepdf)
-Then respond to the input questions, making sure to provide the full path of the file i.e. /user/folder/file.pdf
+Then respond to the input questions, making sure to provide the full path for the folder where the file is saved without the last "/" i.e. /user/folder
 
 The script will then spit out each page separately with a new name using the prefix you have chosen.
